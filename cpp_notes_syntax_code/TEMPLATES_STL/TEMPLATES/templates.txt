@@ -1,10 +1,9 @@
-**C++ Templates**
- 
+C++ Templates
+
 
 What are templates?
 A template is believed to escalate the potential of C++ several fold by giving it the ability to define data types as parameters making it useful to reduce repetitions of the same declaration of classes for different data types. 
 
- 
 
 Declaring classes for every other data type doesn't completely utilize the potential of C++. It is very analogous to when we said classes are the templates for objects, here templates themselves are the templates of the classes. That is, what classes are for objects, templates are for classes.
 
