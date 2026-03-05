@@ -1,0 +1,11 @@
+Without specifying the size of the array:
+int arr[] = {1, 2, 3};
+Here, we can leave the square brackets empty, although the array cannot be left empty in this case. It must have elements in it.
+
+Accessing an array element
+An element in an array can easily be accessed through its index number. 
+
+An index number is a special type of number which allows us to access variables of arrays.  Index number provides a method to access each element of an array in a program. This must be remembered that the index number starts from 0 and not one.
+
+
+

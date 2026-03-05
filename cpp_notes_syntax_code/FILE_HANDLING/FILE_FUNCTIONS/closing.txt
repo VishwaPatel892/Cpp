@@ -1,0 +1,12 @@
+B. Closing a file
+When working with C++, closing open files is considered a good practice. A programmer often makes the mistake of not closing an open file. This becomes crucial because files do not automatically get closed after a program uses them. The closing has to be done manually. 
+
+ 
+
+To close a file, we have to use the close method. This is how we use them in C++.
+
+ 
+
+Syntax:
+
+file_objectname.close();

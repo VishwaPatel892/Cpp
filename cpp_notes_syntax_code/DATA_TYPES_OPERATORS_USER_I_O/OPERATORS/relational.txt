@@ -1,0 +1,13 @@
+Relational operators are used to check the relationship between two operands and to compare two or more numbers or even expressions in cases. The return type of a relational operator is a Boolean that is, either True or False (1 or 0).
+
+ 
+
+Operator   Description
+
+>          Greater than
+<          Less than
+>=         Greater than or equal to
+<=         Less than or equal to
+==         Is equal to
+!=         Is not equal to
+

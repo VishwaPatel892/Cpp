@@ -1,0 +1,26 @@
+The control statement that allows us to make a decision effectively from the number of choices is called a switch, or a switch case-default since these three keywords go together to make up the control statement. 
+
+Switch executes that block of code, which matches the case value. If the value does not match with any of the cases, then the default block is executed. 
+
+ 
+
+Following is the syntax of switch case-default statements:
+
+switch ( integer/character expression )
+{  
+case {value 1} :  
+do this ;
+ 
+case {value 2} :  
+ do this ;  
+ 
+default :  
+do this ;
+ }
+ 
+
+The expression following the switch can be an integer expression or a character expression. Remember, that case labels should be unique for each of the cases. If it is the same, it may create a problem while executing a program. At the end of the case labels, we always use a colon ( : ). Each case is associated with a block. A block contains multiple statements that are grouped together for a particular case.
+
+ 
+
+The break keyword in a case block indicates the end of a particular case. If we do not put the break in each case, then even though the specific case is executed, the switch will continue to execute all the cases until the end is reached. The default case is optional. Whenever the expression's value is not matched with any of the cases inside the switch, then the default case will be executed.

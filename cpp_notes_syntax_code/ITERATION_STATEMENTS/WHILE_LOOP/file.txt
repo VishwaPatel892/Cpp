@@ -1,0 +1,15 @@
+While Loop
+A While loop is also called a pre-tested loop. A while loop allows a piece of code in a program to be executed multiple times, depending upon a given test condition which evaluates to either true or false. The while loop is mostly used in cases where the number of iterations is not known. If the number of iterations is known, then we could also use a for loop as mentioned previously. 
+
+ 
+
+Following is the syntax for using a while loop.
+
+while (condition test)
+{
+    // Set of statements
+}
+The body of a while loop can contain a single statement or a block of statements. The test condition may be any expression that should evaluate as either true or false. The loop iterates while the test condition evaluates to true. When the condition becomes false, it terminates.
+
+ 
+

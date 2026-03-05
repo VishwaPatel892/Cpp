@@ -1,0 +1,28 @@
+Do While Loop
+A do-while loop is a little different from a normal while loop. A do-while loop, unlike what happens in a while loop, executes the statements inside the body of the loop before checking the test condition. 
+
+ 
+
+So even if a condition is false in the first place, the do-while loop would have already run once. A do-while loop is very much similar to a while loop, except for the fact that it is guaranteed to execute the body at least once.
+
+ 
+
+Unlike for and while loops, which test the loop condition first, then execute the code written inside the body of the loop, the do-while loop checks its condition at the end of the loop. 
+
+ 
+
+Following is the syntax for using a do-while loop.
+
+do
+{
+    statements;
+} while (test condition);
+ 
+
+First, the body of the do-while loop is executed once. Only then, the test condition is evaluated. If the test condition returns true, the set of instructions inside the body of the loop is executed again, and the test condition is evaluated. The same process goes on until the test condition becomes false. If the test condition returns false, then the loop terminates.
+
+ 
+
+
+
+

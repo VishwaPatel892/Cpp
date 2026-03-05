@@ -1,0 +1,13 @@
+C++ Manipulators
+In C++ programming, language manipulators are used in the formatting of output. These are helpful in modifying the input and the output stream. They make use of the insertion and extraction operators to modify the output.
+
+Here’s a list of a few manipulators:
+
+ 
+
+Manipulators      Description
+
+endl             It is used to enter a new line with a flush.
+setw(a)          It is used to specify the width of the output.
+setprecision(a)  It is used to set the precision of floating-point values.
+setbase(a)       It is used to set the base value of a numerical number.

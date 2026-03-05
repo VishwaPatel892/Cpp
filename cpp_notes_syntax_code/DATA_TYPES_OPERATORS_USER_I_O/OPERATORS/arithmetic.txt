@@ -1,0 +1,31 @@
+Arithmetic Operators
+Arithmetic operators are used to perform mathematical operations such as addition, subtraction, etc. They could be both binary and unary. A few of the simple arithmetic operators are
+
+ 
+
+Operation      Description
+
+a + b         Adds a and b
+a - b         Subtracts b from a
+a * b         Multiplies a and b
+a / b         Divides a by b
+a % b         Modulus of a and b
+a++           Post increments a by 1
+a--           Post decrements a by 1
+++a           Pre increments a by 1
+--a           Pre decrements a by 1
+
+
+
+Operator Precedence and Associativity
+ 
+
+Operator precedence
+It helps us determine the precedence of an operator over another while solving an expression. Consider an expression a+b*c. Now, since the multiplication operator's precedence is higher than the precedence of the addition operator, multiplication between a and b is done first and then the addition operation will be performed.
+
+ 
+
+Operator associativity
+It helps us to solve an expression; when two or more operators having the same precedence come together in an expression. It helps us decide whether we should start solving the expression containing operators of the same precedence from left to right or from right to left.
+
+The table containing the operator precedence and operator associativity of all operators can be found here. 

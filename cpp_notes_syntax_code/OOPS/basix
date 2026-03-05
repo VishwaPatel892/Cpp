@@ -1,0 +1,5 @@
+Classes and structures are somewhat the same but still, they have some differences. For example, we cannot hide data in structures which means that everything is public and can be accessed easily which is a major drawback of the structure because structures cannot be used where data security is a major concern. Another drawback of structures is that we cannot add functions to them.
+
+Classes are user-defined data types and are a template for creating objects. Classes consist of variables and functions which are also called class members.
+
+We use the class keyword to define a class in C++.

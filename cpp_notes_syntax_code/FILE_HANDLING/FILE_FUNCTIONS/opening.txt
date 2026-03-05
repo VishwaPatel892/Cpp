@@ -1,0 +1,28 @@
+A. Opening a file
+In order to work with files in C++, we will first have to open it. Primarily, there are two ways to open a file:
+
+Using the constructor
+Using the member function open() of the class
+ 
+
+A file could be opened for a number of uses. It could be to write to it or to read from it.
+
+ 
+
+Consider an example that demonstrates the opening of a file using a constructor.
+
+#include <iostream>
+#include <fstream>
+ 
+using namespace std;
+ 
+int main()
+{
+    ofstream out("example.txt");
+    return 0;
+}
+ 
+
+The file example.txt gets created if it’s not already there in the system and opened. Object out gets created of the type ofstream, which means it could only be used to write into the opened file.
+This is how we use the constructor ofstream to open a file. Another example demonstrates the use of the ifstream constructor.
+For this to work, a file named example.txt must already be created and present in the same folder as that of the program. Object in gets created of the type ifstream, which means it could only be used to read from the file.

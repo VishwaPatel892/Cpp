@@ -1,0 +1,49 @@
+Functions
+Functions are the main part of top-down structured programming. We break the code into small pieces and make functions of that code. Functions could be called multiple or several times to provide reusability and modularity to the C++ program. 
+
+ 
+
+Functions are also called procedures or subroutines or methods and they are often defined to perform a specific task. And that makes functions a group of code put together and given a name that can be called anytime without writing the whole code again and again in a program.
+
+ 
+
+Advantages of Functions
+The use of functions allows us to avoid re-writing the same logic or code over and over again.
+
+With the help of functions, we can divide the work among the programmers.
+
+We can easily debug or can find bugs in any program using functions.
+
+They make code readable and less complex.
+
+ 
+
+Aspects of a function
+Declaration: This is where a function is declared to tell the compiler about its existence.
+Definition: A function is defined to get some task executed. (It means when we define a function, we write the whole code of that function and this is where the actual implementation of the function is done).
+Call: This is where a function is called in order to be used.
+ 
+
+Function Prototype in C++
+The function prototype is the template of the function which tells the details of the function which include its name and parameters to the compiler. Function prototypes help us to define a function after the function call. 
+
+ 
+
+Example of a function prototype,
+
+// Function prototype
+return_datatype function_name(datatype_1 a, datatype_2 b);
+ 
+
+Types of functions
+Library functions:
+Library functions are pre-defined functions in C++ Language. These are the functions that are included in C++ header files prior to any other part of the code in order to be used.
+
+E.g. sqrt(), abs(), etc.
+
+ 
+
+User-defined functions
+User-defined functions are functions created by the programmer for the reduction of the complexity of a program. Rather, these are functions that the user creates as per the requirements of a program.
+
+E.g. Any function created by the programmer.

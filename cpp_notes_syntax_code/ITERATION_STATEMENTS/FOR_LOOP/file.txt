@@ -1,0 +1,25 @@
+For Loop
+A for loop is a repetition control structure that allows us to efficiently write a loop that will execute a specific number of times. The for-loop statement is very specialized. We use a for loop when we already know the number of iterations of that particular piece of code we wish to execute. Although, when we do not know about the number of iterations, we use a while loop which is discussed next. 
+
+ 
+
+Here is the syntax of a for loop in C++ programming.
+
+for (initialise counter; test counter; increment / decrement counter)
+{
+    //set of statements
+}
+Here,
+
+initialize counter: It will initialize the loop counter value. It is usually i=0.
+
+test counter: This is the test condition, which if found true, the loop continues, otherwise terminates.
+
+Increment/decrement counter: Incrementing or decrementing the counter.
+
+Set of statements: This is the body or the executable part of the for loop or the set of statements that has to repeat itself.
+First, the initialization expression will initialize loop variables. The expression i=0 executes once when the loop starts. Then the condition i < num is checked. If the condition is true, then the statements inside the body of the loop are executed. After the statements inside the body are executed, the control of the program is transferred to the increment of the variable i by 1. The expression i++ modifies the loop variables. Iteratively, the condition i < num is evaluated again. 
+
+
+The for loop terminates when i finally becomes greater than num, therefore, making the condition i<num false.
+

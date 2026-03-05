@@ -1,0 +1,14 @@
+Bitwise Operators
+A bitwise operator is used to perform operations at the bit level. To obtain the results, they convert our input values into binary format and then process them using whatever operator they are being used with. 
+
+ 
+
+Operator  Description
+
+&         Bitwise AND
+|         Bitwise OR
+^         Bitwise XOR
+~         Bitwise Complement
+>>        Shift Right Operator
+<<        Shift Left Operator
+

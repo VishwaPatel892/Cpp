@@ -1,0 +1,23 @@
+C++ File I/O
+ 
+
+The file is a patent of data stored on the disk. Anything written inside the file is called a patent, for example: “#include” is a patent. The text file is the combination of multiple types of characters, for example, the semicolon “;” is a character.
+The computer read these characters in the file with the help of the ASCII code. Every character is mapped on some decimal number. For example, the ASCII code for the character A is 65 which is a decimal number. These decimal numbers are converted into binary numbers to make them readable for the computer because the computer can only understand the language of 0 & 1.
+A large program deployed for heavy applications cannot function without files, since we can get input from them as well as print output from them very easily. We can also save a lot of program space by accessing the file's data only when needed, making the program more efficient and faster.
+
+Files are stored in non-volatile memory which is better in terms of storing data. Non-volatile memory stays intact even after the system shuts down. They get retrieved again after the system is turned on.
+
+Operations on files
+There are basically four operations we can perform on files in C. 
+
+Creating a File:
+We can create a file using C++ language, in any directory, without even leaving our compiler. We can select the name or type we want our file to have, along with its location.
+
+Opening a File:
+We can open an existing file and create a new file and open it using our program. We can perform different operations on a file after it has been opened.
+
+Closing a File:
+When we are done with the file, meaning that we have performed whatever we want to perform on our file, we can close the file using the close function.
+
+Read/Write to a file:
+After opening a file, we can access its contents and read, write, or update them.

@@ -1,0 +1,12 @@
+he continue statement is used inside loops in C++ language. When a continue statement is encountered inside the loop, the control jumps to the beginning of the loop for the next iteration, skipping the execution of statements inside the body of the loop after the continue statement.
+
+ 
+
+It is used to bring the control to the next iteration of the loop. Typically, the continue statement skips some code inside the loop and lets the program move on with the next iteration. It is mainly used for a condition so that we can skip some lines of code for a particular condition.
+
+ 
+
+It forces the next iteration to follow in the loop unlike a break statement, which terminates the loop itself the moment it is encountered. 
+
+ 
+

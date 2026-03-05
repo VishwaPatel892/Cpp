@@ -1,0 +1,11 @@
+File I/O Functions
+ 
+
+These are some useful classes for working with files in C++
+
+fstream - A combination of ofstream and ifstream: creates, reads, and writes to files
+ofstream  - creates and writes to files
+ifstream  - reads from files
+ 
+
+The fstream library allows us to handles files. So, to be able to use files in a program, one must include the <fstream> header file.

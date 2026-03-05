@@ -1,0 +1,15 @@
+// Variable Scope
+// The scope of a variable is the region in a program where the existence of that variable is valid. Based on its scope, variables can be classified into two types:
+// Local variables:
+// Local variables are declared inside the braces of any function and can be assessed only from that particular function. 
+// GLOBAL VARIABLES:
+// Global variables are declared outside of any function and can be accessed from anywhere.
+
+
+
+
+Explanation: A local variable a was declared in the main function, and when printed, gave 10. This is because, within the body of a function, a local variable takes precedence over a global variable with the same name. But since there was no variable declared in the func function, it considered the global variable a for printing, and hence the value 5.
+
+ 
+
+A variable, as its name is defined, can be altered, or its value can be changed, but the same is not true for its type. If a variable is of integer type, it will only store an integer value through a program. We cannot assign a character type value to an integer variable. We can not even store a decimal value into an integer variable.

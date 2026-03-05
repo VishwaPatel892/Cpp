@@ -1,0 +1,6 @@
+Accessing struct elements
+To access any of the values of a structure's members, we use the dot operator (.). This dot operator is coded between the structure variable name and the structure member that we wish to access. 
+
+Before the dot operator, there must always be an already defined structure variable and after the dot operator, there must always be a valid structure element.
+
+
