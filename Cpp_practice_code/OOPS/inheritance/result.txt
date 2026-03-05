@@ -1,0 +1,4 @@
+Operation: + Result: 7
+Operation: / Result: 0
+Operation: + Result: 7
+Operation: + Result: 713
